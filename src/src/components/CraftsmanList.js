@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './CraftsmanList.css';
 
 const craftsmen = [
@@ -57,6 +58,12 @@ const craftsmen = [
 ];
 
 function CraftsmanList() {
+  const navigate = useNavigate();
+
+  const handleContactClick = (id) => {
+    navigate(`/profile/${id}`);
+  };
+
   return (
     <section className="craftsman-list">
       <h2>Verfügbare Handwerker</h2>
@@ -76,7 +83,7 @@ function CraftsmanList() {
                 <p>{craftsman.lastReviewText}</p>
               </div>
             )}
-            <button>Kontaktieren</button>
+            <button onClick={() => handleContactClick(craftsman.id)}>Kontaktieren</button>
           </div>
         ))}
       </div>

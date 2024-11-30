@@ -1,0 +1,50 @@
+.craftsman-profile {
+    padding: 20px;
+    color: #e0e0e0;
+  }
+  
+  .craftsman-profile a {
+    color: #6f42c1;
+    text-decoration: none;
+  }
+  
+  .craftsman-profile h2 {
+    margin-top: 0;
+  }
+  
+  .craftsman-profile p {
+    margin: 10px 0;
+  }
+  
+  .craftsman-profile button {
+    background-color: #6f42c1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .craftsman-profile button:hover {
+    background-color: #5a379e;
+  }
+  
+  .craftsman-profile .content-box {
+    background-color: #1c1c1c !important; /* Darker background for content boxes */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    color: #e0e0e0 !important; /* Ensure text is visible */
+  }
+  
+  .portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+  }
+  
+  .portfolio img {
+    width: 100%;
+    border-radius: 4px;
+  }
