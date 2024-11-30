@@ -1,0 +1,15 @@
+.craftsman-list {
+    padding: 20px;
+  }
+  
+  .craftsman-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .craftsman-list li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
