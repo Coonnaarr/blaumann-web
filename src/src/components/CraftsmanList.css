@@ -1,15 +1,48 @@
 .craftsman-list {
     padding: 20px;
+    background-color: #f0f0f0;
   }
   
-  .craftsman-list ul {
-    list-style-type: none;
-    padding: 0;
+  .craftsman-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
   }
   
-  .craftsman-list li {
+  .craftsman-card {
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .craftsman-card h3 {
+    margin-top: 0;
+    color: #6f42c1;
+  }
+  
+  .craftsman-card p {
     margin: 10px 0;
+  }
+  
+  .last-review {
+    background-color: #d0d0d0;
     padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
+  button {
+    background-color: #6f42c1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #5a379e;
   }
