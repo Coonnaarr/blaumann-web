@@ -5,12 +5,12 @@ import './Header.css';
 function Header() {
     return (
       <header className="header">
-        <h1>Handwerkerverzeichnis</h1>
+        <h1>Blaumann</h1>
         <nav>
           <ul>
-            <li><a href="#home">Startseite</a></li>
+            <li><a href="#home">Auftrag Einstellen</a></li>
             <li><a href="#about">Über uns</a></li>
-            <li><a href="#contact">Kontakt</a></li>
+            <li><a href="#contact">Als Handwerker Anmelden</a></li>
           </ul>
         </nav>
       </header>
