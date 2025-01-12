@@ -19,7 +19,7 @@
   
   .craftsman-card h3 {
     margin-top: 0;
-    color: #6f42c1;
+    color: blue;
   }
   
   .craftsman-card p {
@@ -34,7 +34,7 @@
   }
   
   button {
-    background-color: #6f42c1;
+    background-color: blue;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -44,5 +44,5 @@
   }
   
   button:hover {
-    background-color: #5a379e;
+    background-color: rgb(98, 98, 255);
   }
